@@ -25,22 +25,19 @@ const techIcons: any = {
   datastructures: "https://miro.medium.com/v2/resize:fit:1400/1*J38nYZU7gzu-4lQmtjlSUw.jpeg",
   firebase: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
   mysql: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
-  pwa: "https://miro.medium.com/v2/resize:fit:1400/1*AhFm0XyjfG7A_ZG5hC-Hyg.png",
-  electron: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg",
   scss: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
   postman:
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqPARNK1AQ86vt-kFVrGjRrJtZUNcT3-szdg&s",
   insomnia: "https://assets.apidog.com/blog/2023/05/insomnia.png",
   cicd: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAABUoTg0hRIRysVXsNZg21ojLCOSsljUElA&s",
   figma: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-  zustand: "https://miro.medium.com/v2/resize:fit:1200/1*4ej-1rHTfJ5ji7_5XscrWg.jpeg",
+  zustand: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpHj4UwTW4ANSlNjzQOiiOqfDa6kal9RpF0A&s",
   vercel: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
   render:
     "https://cdn.sanity.io/images/hvk0tap5/production/cb7ff287cdf28d8115569e91e856e9b6441bc7a6-3840x2146.png",
   netlify: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg",
-  twilio: "https://cdn.intuji.com/2022/05/What-Is-Twilio-scaled-1.jpg",
   razorpay:
-    "https://d6xcmfyh68wv8.cloudfront.net/newsroom-content/uploads/2022/07/Razorpay_payments.png",
+    "https://media.tradly.app/images/marketplace/34521/razor_pay_icon-ICtywSbN.png",
   oauth:
     "https://www.tech101.in/wp-content/uploads/2016/09/x001-oauth-logo.png.pagespeed.ic.BKxLtqgu9O.png",
 };
@@ -102,7 +99,7 @@ export const InfiniteMovingCards = ({
       } else if (speed === "normal") {
         containerRef.current.style.setProperty("--animation-duration", "40s");
       } else {
-        containerRef.current.style.setProperty("--animation-duration", "80s");
+        containerRef.current.style.setProperty("--animation-duration", "350s");
       }
     }
   };
