@@ -7,7 +7,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 const Connect = () => {
   return (
     <div id="contact">
-      <LampContainer className="flex gap-3">
+      <LampContainer className="flex">
         <motion.h1
           initial={{ opacity: 0.5, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
