@@ -3,10 +3,11 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { BackgroundLines } from "./ui/BackgroundLines";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-20 pt-4">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -33,27 +34,26 @@ const Hero = () => {
         />
       </div>
 
-      <div className="flex justify-center relative my-20 z-10">
+      <div className="flex justify-center relative z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-         
-
           {/**
            *  Link: https://ui.aceternity.com/components/text-generate-effect
            *
            *  change md:text-6xl, add more responsive code
            */}
-          <TextGenerateEffect
-            words="Hi! I&apos;m Vivek, a MERN Stack Developer based in India."
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
-          />
+          <BackgroundLines className="flex items-center justify-center w-full flex-col px-4">
+            <TextGenerateEffect
+              words="Hi! I'm Vivek, a MERN Stack Developer based in India."
+              className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-           Crafting User Centric Experiences.
-          </p>
-
-          <a href="#about">
-            <MagicButton title="Show my work" icon={<FaLocationArrow />} position="right" />
-          </a>
+            <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+              Crafting User Centric Experiences.
+            </p>
+            <a href="#about">
+              <MagicButton title="Show my work" icon={<FaLocationArrow />} position="right" />
+            </a>
+          </BackgroundLines>
         </div>
       </div>
     </div>
