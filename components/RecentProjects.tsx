@@ -6,7 +6,7 @@ import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20 px-4 sm:px-6 lg:px-8" id="projects">
+    <div className="py-20 px-4 sm:px-6 lg:px-8 " id="projects">
       <h1 className="heading">
         A small selection of <span className="text-purple">recent projects</span>
       </h1>
