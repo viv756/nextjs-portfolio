@@ -35,22 +35,28 @@ const RecentProjects = () => {
                 />
               </CardItem>
               <div className="flex flex-col sm:flex-row justify-between items-center mt-6 gap-4 min-h-[56px]">
-                <CardItem
-                  translateZ={20}
-                  as="a"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold w-full sm:w-auto text-center">
-                  View Live Site →
-                </CardItem>
-                <CardItem
-                  translateZ={20}
-                  as="a"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold w-full sm:w-auto text-center">
-                  View Source Code →
-                </CardItem>
+                {item.liveLink && (
+                  <CardItem
+                    translateZ={20}
+                    href={item.liveLink}
+                    as="a"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 sm:flex-grow rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold w-full sm:w-auto text-center">
+                    View Live Site →
+                  </CardItem>
+                )}
+                {item.sourceCode && (
+                  <CardItem
+                    translateZ={20}
+                    as="a"
+                    href={item.sourceCode}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 sm:flex-grow  rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold w-full sm:w-auto text-center">
+                    View Source Code →
+                  </CardItem>
+                )}
               </div>
             </CardBody>
           </CardContainer>
