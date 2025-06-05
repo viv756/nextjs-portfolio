@@ -6,9 +6,8 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 const Connect = () => {
   return (
-  
     <div id="contact">
-       <LampContainer className="">
+      <LampContainer className="">
         <motion.h1
           initial={{ opacity: 0.5, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -20,12 +19,13 @@ const Connect = () => {
           className=" bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl">
           Interested in build something <br /> amazing together?
         </motion.h1>
-        <div className="">
-          <MagicButton title="Let's get in touch" icon={<FaLocationArrow />} position="right" />
+        <div>
+          <a href="mailto:vrvivekofficial@gmail.com">
+            <MagicButton title="Let's get in touch" icon={<FaLocationArrow />} position="right" />
+          </a>
         </div>
       </LampContainer>
-     </div>
- 
+    </div>
   );
 };
 
