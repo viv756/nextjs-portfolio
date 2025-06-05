@@ -72,35 +72,50 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Teamsync",
+    des: "A team collaboration platform that enables users to create workspaces and efficiently manage their projects together.",
+    img: "/teamsync.png",
+    liveLink: "https://team-sync-nm5p.onrender.com",
+    sourceCode: "https://github.com/viv756/B2B-project-management",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/test.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Elite-Auctions",
+    des: "An interactive auction platform where users can create auctions, place bids, and receive real-time updates on auction progress and outcomes.",
+    img: "/auction_app.png",
+    liveLink: "https://elite-auctions.netlify.app/",
+    sourceCode: "https://github.com/viv756/mern-auction-backend",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/test.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Chatty",
+    des: "A real-time chat application that allows users to send and receive messages instantly, enabling seamless and interactive communication.",
+    img: "/chatty.png",
+    liveLink: "https://real-time-chat-application-72cd.onrender.com",
+    sourceCode: "https://github.com/viv756/real-time-chat-application",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Personal Blog",
+    des: "A full-stack application where I can write and post my blogs.",
+    img: "/blogapp.png",
+    liveLink: "https://mern-blog-12mh.onrender.com",
+    sourceCode: "https://github.com/viv756/mern-blog",
+  },
+  {
+    id: 5,
+    title: "A Fullstack Real Estate App",
+    des: "Users can buy, sell, and rent properties on this real estate platform",
+    img: "/realestate.png",
+    sourceCode: "https://github.com/viv756/real-estate-mern",
+  },
+  {
+    id: 6,
+    title: "Bookstore app",
+    des: "A simple full-stack MERN app that lets users browse and view a collection of books.",
+    img: "/bookstore.png",
+    liveLink: "https://bookstore-1-b4ao.onrender.com",
+    sourceCode: "https://github.com/viv756/bookstore",
   },
 ];
 
@@ -172,8 +187,7 @@ export const testimonials = [
     iconKey: "mvc",
   },
   {
-    quote:
-      "Socket.io enables real-time communication between server and client.",
+    quote: "Socket.io enables real-time communication between server and client.",
     name: "Socket.io",
     title: "Real-time Communication",
     iconKey: "socketio",
@@ -312,29 +326,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Full-Stack Developer",
+    desc: "Designed, developed, and maintained sophisticated full-stack applications utilizing MERN stack and Next.js, delivering seamless user experiences and ensuring robust functionality.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Next.js - Developer",
+    desc: "Built performant and SEO-friendly web applications using Next.js, leveraging features like server-side rendering (SSR) and static site generation (SSG).",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    desc: "Managed full project lifecycle from planning and development to testing and deployment, ensuring high-quality results.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Problem Solver — MERN Stack",
+    desc: "Skilled in analyzing and solving complex challenges using the MERN stack by breaking down problems into manageable parts.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -344,13 +358,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link:"https://github.com/viv756"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link:"https://x.com/vrvivek599"
   },
   {
     id: 3,
     img: "/link.svg",
+    link:"https://www.linkedin.com/in/vr-vivek"
   },
 ];
