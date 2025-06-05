@@ -290,7 +290,6 @@ export const testimonials = [
   },
 ];
 
-
 export const workExperience = [
   {
     id: 1,
@@ -326,16 +325,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link:"https://github.com/viv756"
+    link: "https://github.com/viv756",
   },
   {
     id: 2,
     img: "/twit.svg",
-    link:"https://x.com/vrvivek599"
+    link: "https://x.com/vrvivek599",
   },
   {
     id: 3,
     img: "/link.svg",
-    link:"https://www.linkedin.com/in/vr-vivek"
+    link: "https://www.linkedin.com/in/vr-vivek",
   },
 ];

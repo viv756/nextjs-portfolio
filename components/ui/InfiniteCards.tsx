@@ -13,33 +13,30 @@ const techIcons: any = {
   expressjs: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
   mongodb: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
   redux: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
-  tailwind:
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNhoXisDruJMDAq3Ltd-wuaMW2lGxck9wAKw&s",
+  tailwind: "https://www.svgrepo.com/show/374118/tailwind.svg",
   docker: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-  cleanarch: "https://miro.medium.com/v2/resize:fit:800/1*0R0r00uF1RyRFxkxo3HVDg.png",
-  mvc: "https://learn.microsoft.com/en-us/aspnet/core/mvc/overview/_static/mvc.png?view=aspnetcore-8.0",
+  cleanarch:
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Clean_Architecture_core.svg/2146px-Clean_Architecture_core.svg.png",
+  mvc: "https://static.thenounproject.com/png/5340614-200.png",
+  webrtc: "https://www.svgrepo.com/show/354551/webrtc.svg",
   socketio: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg",
-  webrtc: "https://webrtc.github.io/webrtc-org/assets/images/webrtc-logo-vert-retro-255x305.png",
-  zegocloud:
-    "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/fogndramdrsfrgfsjf5m",
-  datastructures: "https://miro.medium.com/v2/resize:fit:1400/1*J38nYZU7gzu-4lQmtjlSUw.jpeg",
+  zegocloud: "https://www.freeiconspng.com/uploads/rain-cloud-icon-14.png",
+  datastructures: "https://cdn-icons-png.freepik.com/512/10611/10611413.png",
   firebase: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
   mysql: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
   scss: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
-  postman:
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqPARNK1AQ86vt-kFVrGjRrJtZUNcT3-szdg&s",
-  insomnia: "https://assets.apidog.com/blog/2023/05/insomnia.png",
-  cicd: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAABUoTg0hRIRysVXsNZg21ojLCOSsljUElA&s",
+  postman: "https://www.svgrepo.com/show/354202/postman-icon.svg",
+  insomnia: "https://www.svgrepo.com/show/353904/insomnia.svg",
+  cicd: "https://d585tldpucybw.cloudfront.net/sfimages/default-source/productsimages/teststudio/continuous-integration-testing-illustration.svg",
   figma: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-  zustand: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpHj4UwTW4ANSlNjzQOiiOqfDa6kal9RpF0A&s",
+  zustand:
+    "https://i.namu.wiki/i/lWcXbpCwKlTNMM2v_SiGVK5Q6XsnTOvH6txHs25DbpbP_XGDum3MfxpNHYDCGHxuqGeZaJ8PVZLWO9LJFGFGAA.webp",
   vercel: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
   render:
-    "https://cdn.sanity.io/images/hvk0tap5/production/cb7ff287cdf28d8115569e91e856e9b6441bc7a6-3840x2146.png",
+    "https://cdn.sanity.io/images/34ent8ly/production/ec37a3660704e1fa2b4246c9a01ab34e145194ad-824x824.png",
   netlify: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg",
-  razorpay:
-    "https://media.tradly.app/images/marketplace/34521/razor_pay_icon-ICtywSbN.png",
-  oauth:
-    "https://www.tech101.in/wp-content/uploads/2016/09/x001-oauth-logo.png.pagespeed.ic.BKxLtqgu9O.png",
+  razorpay: "https://media.tradly.app/images/marketplace/34521/razor_pay_icon-ICtywSbN.png",
+  oauth: "https://www.svgrepo.com/show/354135/oauth.svg",
 };
 
 export const InfiniteMovingCards = ({
