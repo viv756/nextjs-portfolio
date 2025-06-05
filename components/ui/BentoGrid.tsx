@@ -1,9 +1,8 @@
-"use client"
+"use client";
 
 import dynamic from "next/dynamic";
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
-
 
 const Lottie = dynamic(() => import('react-lottie'), {
   ssr: false,
@@ -67,6 +66,16 @@ export const BentoGridItem = ({
   const rightLists = ["Docker", "Postgres", "GraphQL"];
 
   const [copied, setCopied] = useState(false);
+  const [downloaded, setDownloaded] = useState<boolean>(false);
+
+  const handleDownloadResume = () => {
+    const link = document.createElement("a");
+    link.href = "/vivek-cv.pdf";
+    link.download = "vivek.cv.pdf";
+    link.click();
+
+    setDownloaded(true);
+  };
 
   const defaultOptions = {
     loop: copied,
@@ -132,6 +141,17 @@ export const BentoGridItem = ({
           {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
           {/* remove mb-2 mt-2 */}
           <div className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}>{title}</div>
+
+          {id === 1 && !downloaded && (
+            <button
+              onClick={handleDownloadResume}
+              className="mt-4 relative inline-flex h-12 max-w-xs md:max-w-sm overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+              <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+              <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+                Download Resume
+              </span>
+            </button>
+          )}
 
           {/* for the github 3d globe */}
           {id === 2 && <GridGlobe />}
